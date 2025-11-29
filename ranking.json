@@ -1,0 +1,17 @@
+[
+  {
+    "title": "人気動画1",
+    "url": "https://example.com/video1",
+    "score": 1200
+  },
+  {
+    "title": "人気動画2",
+    "url": "https://example.com/video2",
+    "score": 950
+  },
+  {
+    "title": "人気動画3",
+    "url": "https://example.com/video3",
+    "score": 870
+  }
+]

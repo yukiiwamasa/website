@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f2f2f2;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            background: white;
-            max-width: 800px;
-            margin: 30px auto;
-            border-radius: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #666;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成人向けランキングサイト</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>ようこそ！</h1>
+        <h1>今週の人気動画ランキング</h1>
     </header>
 
     <main>
-        <h2>これはあなたの最初のWebサイトです</h2>
-        <p>HTML と CSS だけで簡単に作れます。</p>
+        <section id="ranking">
+            <!-- JSでランキング表示 -->
+        </section>
+
+        <!-- 広告例 -->
+        <section id="ads">
+            <h2>広告</h2>
+            <!-- ExoClickなどの広告コード貼付 -->
+            <div class="ad-placeholder">ここに広告コードを貼ります</div>
+        </section>
     </main>
 
     <footer>
-        © 2025 My Website
+        <p>&copy; 2025 成人向けランキングサイト</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
